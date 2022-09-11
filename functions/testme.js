@@ -1,5 +1,5 @@
 export default (req, res) => {
-    // console.dir(req, { depth: 1 });
+    console.dir(req, { depth: 1 });
 
     const timestamp = Date.now() / 1000 | 0;
 
