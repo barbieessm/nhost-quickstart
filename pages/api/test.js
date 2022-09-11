@@ -1,5 +1,5 @@
-import testme from '../../functions/testme';
-import whoami from '../../functions/whoami';
+// import testme from '../../functions/testme';
+// import whoami from '../../functions/whoami';
 
 export default function handler(req, res) {
     // console.dir(req, { depth: 1 });

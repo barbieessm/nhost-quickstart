@@ -1,5 +1,8 @@
 export default (req, res) => {
-    console.dir(req, { depth: 1 });
+    // console.dir(req, { depth: 1 });
+    console.log('<< req.apiGateway >>', req.apiGateway);
+    console.log('<< req.requestContext >>', req.requestContext);
+    console.log('<< req.client.address() >>', req.client.address());
 
     const timestamp = Date.now() / 1000 | 0;
 
