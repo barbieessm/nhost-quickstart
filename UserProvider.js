@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 
 const UserContext = React.createContext(null);
 import { useUserId } from '@nhost/nextjs';
-import { gql } from '@apollo/client';
+import { gql, useQuery } from '@apollo/client';
 
 const GET_USER_QUERY = gql`
   query GetUser($id: uuid!) {
