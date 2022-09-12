@@ -5,6 +5,7 @@ export default function handler(req, res) {
     // console.dir(req, { depth: 1 });
 
     const fn = Object.keys(req.query)[0];
+    console.log(fn);
     // if (fn === 'testme') {
     //     testme(req, res);
     // }
